@@ -1,0 +1,13 @@
+# AI 가중치 파일 제외
+*.pt
+runs/
+
+# Roboflow 데이터셋 폴더 제외 (용량이 크므로 제외)
+train/
+valid/
+test/
+datasets/
+
+# 파이썬 실행 임시 파일 제외
+__pycache__/
+.vscode/
